@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="bookDao" class="com.CliPg.dao.impl.BookDaoImpl">
+        <property name="array">
+            <array>
+                <value>100</value>
+                <value>200</value>
+                <value>300</value>
+            </array>
+        </property>
+        <property name="list">
+            <list>
+                <value>pg</value>
+            </list>
+        </property>
+        <property name="set">
+            <set>
+                <value>pg</value>
+            </set>
+        </property>
+        <property name="map">
+            <map>
+                <entry key="country" value="China"/>
+            </map>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="country">China</prop>
+            </props>
+        </property>
+
+    </bean>
+
+
+</beans>
