@@ -5,8 +5,7 @@
 
 <mapper namespace="com.clipg.mapper.GoodsMapper">
 
-    <!--查-->
-    <!--查看所有-->
+
     <select id="selectAll" resultType="com.clipg.pojo.Goods">
         select goods_id as goodsId, goods_name as goodsName, goods_price as goodsPrice, goods_num as goodsNum
         from order_management.goods
@@ -26,7 +25,7 @@
         from order_management.goods
         order by goodsId DESC
     </select>
-    <!--查看指定-->
+
     <select id="selectByName" resultType="com.clipg.pojo.Goods">
         select goods_id as goodsId, goods_name as goodsName, goods_price as goodsPrice, goods_num as goodsNum
         from order_management.goods
@@ -38,7 +37,7 @@
         from order_management.goods
         where goods_id = #{goodsId};
     </select>
-    <!--动态条件查询-->
+
     <select id="selectByDynamicCondition" resultType="com.clipg.pojo.Goods">
         select goods_id as goodsId,goods_name as goodsName,goods_price as goodsPrice,goods_num as goodsNum
         from order_management.goods
@@ -56,8 +55,7 @@
     </select>
 
 
-    <!--改-->
-    <!--动态修改-->
+
     <update id="updateDynamic">
         update order_management.goods
         <set>
@@ -75,21 +73,20 @@
     </update>
 
 
-    <!--增-->
+
     <insert id="insertGood">
         insert into order_management.goods (goods_id, goods_name, goods_price, goods_num)
         values (#{goodsId}, #{goodsName}, #{goodsPrice}, #{goodsNum})
     </insert>
 
 
-    <!--删-->
-    <!--删除指定-->
+
     <delete id="deleteById">
         delete
         from order_management.goods
         where goods_id = #{id};
     </delete>
-    <!--批量删除-->
+
     <delete id="deleteByIds">
         delete from order_management.goods where goods_id
         in (

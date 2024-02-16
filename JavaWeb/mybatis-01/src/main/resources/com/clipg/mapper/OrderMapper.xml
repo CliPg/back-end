@@ -5,8 +5,7 @@
 
 
 <mapper namespace="com.clipg.mapper.OrderMapper">
-    <!--查-->
-    <!--查看所有-->
+
     <select id="selectAll" resultType="com.clipg.pojo.Order">
         select order_id    as orderId,
                goods_name  as goodsName,
@@ -42,7 +41,7 @@
         from order_management.orders
         order by orderId DESC
     </select>
-    <!--查看指定-->
+
     <select id="selectByid" resultType="com.clipg.pojo.Order">
         select order_id    as orderId,
                goods_name  as goodsName,
@@ -52,7 +51,7 @@
         from order_management.orders
         where order_id = #{id};
     </select>
-    <!--动态条件查询-->
+
     <select id="selectByDynamicCondition" resultType="com.clipg.pojo.Order">
         select order_id as orderId,goods_name as goodsName,order_num as orderNum,order_time as orderTime,order_price as
         orderPrice
@@ -74,8 +73,7 @@
     </select>
 
 
-    <!--改-->
-    <!--动态修改-->
+
     <update id="updateDynamic">
         update order_management.orders
         <set>
@@ -96,21 +94,20 @@
     </update>
 
 
-    <!--增-->
+
     <insert id="insertOrder">
         insert into order_management.orders (order_id, goods_name, order_num, order_time, order_price)
         values (#{orderId}, #{goodsName}, #{orderNum}, #{orderTime}, #{orderPrice})
     </insert>
 
 
-    <!--删-->
-    <!--删除指定-->
+
     <delete id="deleteById">
         delete
         from order_management.orders
         where order_id = #{id};
     </delete>
-    <!--批量删除-->
+
     <delete id="deleteByIds">
         delete from order_management.orders where order_id
         in (

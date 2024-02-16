@@ -1,5 +1,6 @@
 package com.clipg;
 
+import com.clipg.pojo.Order;
 import com.clipg.service.GoodsService;
 import com.clipg.service.OrderService;
 
@@ -10,6 +11,9 @@ public class OrderManagementTest {
     public static void main(String[] args) throws IOException, ParseException {
         //GoodsCURD
         GoodsService goodsService = new GoodsService();
+        OrderService orderService = new OrderService();
+        orderService.insertOrder(9,"ZK6",1);
+        /*
         //正常范例 增
         goodsService.insertGoods("ZK6",4000,50,9);
         //Id已存在
@@ -63,6 +67,7 @@ public class OrderManagementTest {
         //查
         orderService.getOrderById(4);
 
+         */
 
     }
 }
