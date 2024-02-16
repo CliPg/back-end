@@ -1,0 +1,3 @@
+com\clipg\controller\UserController.class
+com\clipg\config\SpringMvcConfig.class
+com\clipg\config\ServletContainersInitConfig.class
