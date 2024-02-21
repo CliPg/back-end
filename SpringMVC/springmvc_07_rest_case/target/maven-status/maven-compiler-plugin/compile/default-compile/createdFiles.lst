@@ -1,0 +1,5 @@
+com\clipg\domain\Book.class
+com\clipg\controller\BookController.class
+com\clipg\config\SpringMvcConfig.class
+com\clipg\config\SpringMvcSupport.class
+com\clipg\config\ServletContainersInitConfig.class

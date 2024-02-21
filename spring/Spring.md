@@ -1133,3 +1133,149 @@ args[0]是自己加的，下一行proceed会对修改后的args进行操作
 
 ![image-20240216181915017](C:\Users\77507\AppData\Roaming\Typora\typora-user-images\image-20240216181915017.png)
 
+
+
+
+
+## 6、请求参数
+
+- 普通参数
+
+  ![image-20240218092653971](C:\Users\77507\AppData\Roaming\Typora\typora-user-images\image-20240218092653971.png)
+
+  ![image-20240218093023054](C:\Users\77507\AppData\Roaming\Typora\typora-user-images\image-20240218093023054.png)
+
+- 数组参数
+
+  ![image-20240218103934404](C:\Users\77507\AppData\Roaming\Typora\typora-user-images\image-20240218103934404.png)
+
+- pojo
+
+  ![image-20240218104910442](C:\Users\77507\AppData\Roaming\Typora\typora-user-images\image-20240218104910442.png)
+
+- 嵌套pojo
+
+  ![image-20240218104927885](C:\Users\77507\AppData\Roaming\Typora\typora-user-images\image-20240218104927885.png)
+
+- 集合参数
+
+  ![image-20240218104956478](C:\Users\77507\AppData\Roaming\Typora\typora-user-images\image-20240218104956478.png)
+
+
+
+- 传递json数据
+
+  ![image-20240218154056227](C:\Users\77507\AppData\Roaming\Typora\typora-user-images\image-20240218154056227.png)
+
+  
+
+![image-20240218154712646](C:\Users\77507\AppData\Roaming\Typora\typora-user-images\image-20240218154712646.png)
+
+
+
+```java
+    //集合参数:json格式
+    @RequestMapping("/listParamForJson")
+    @ResponseBody
+    public String listParamForJson(@RequestBody List<String> likes){
+        System.out.println("list common(json)参数传递：" + likes);
+        return  "{'module':'list common for json param'}";
+    }
+
+    //POJO参数:json格式
+    @RequestMapping("/pojoParamForJson")
+    @ResponseBody
+    public String pojoParamForJson(@RequestBody User user){
+        System.out.println("pojo(json)参数传递：" + user);
+        return  "{'module':'pojo for json param'}";
+    }
+
+    //集合pojo参数:json格式
+    @RequestMapping("/listPojoParamForJson")
+    @ResponseBody
+    public String listPojoParamForJson(@RequestBody List<User> list){
+        System.out.println("pojo(json)参数传递：" + list);
+        return  "{'module':'list pojo for json param'}";
+    }
+```
+
+![image-20240218184651333](C:\Users\77507\AppData\Roaming\Typora\typora-user-images\image-20240218184651333.png)
+
+
+
+
+
+![image-20240218184755180](C:\Users\77507\AppData\Roaming\Typora\typora-user-images\image-20240218184755180.png)
+
+
+
+
+
+- 日期类型参数传递
+
+  ![image-20240218191346464](C:\Users\77507\AppData\Roaming\Typora\typora-user-images\image-20240218191346464.png)
+
+  ![image-20240218191634897](C:\Users\77507\AppData\Roaming\Typora\typora-user-images\image-20240218191634897.png)
+
+  
+
+## 7、响应
+
+![image-20240218212916944](C:\Users\77507\AppData\Roaming\Typora\typora-user-images\image-20240218212916944.png)
+
+
+
+## 8、REST风格
+
+![image-20240220105807568](C:\Users\77507\AppData\Roaming\Typora\typora-user-images\image-20240220105807568.png)
+
+![image-20240220105912203](C:\Users\77507\AppData\Roaming\Typora\typora-user-images\image-20240220105912203.png)
+
+
+
+
+
+![image-20240220124719295](C:\Users\77507\AppData\Roaming\Typora\typora-user-images\image-20240220124719295.png)
+
+![image-20240220124806938](C:\Users\77507\AppData\Roaming\Typora\typora-user-images\image-20240220124806938.png)
+
+
+
+
+
+![image-20240220143039218](C:\Users\77507\AppData\Roaming\Typora\typora-user-images\image-20240220143039218.png)
+
+![image-20240220143057682](C:\Users\77507\AppData\Roaming\Typora\typora-user-images\image-20240220143057682.png)
+
+![image-20240220143131104](C:\Users\77507\AppData\Roaming\Typora\typora-user-images\image-20240220143131104.png)
+
+![image-20240220143215788](C:\Users\77507\AppData\Roaming\Typora\typora-user-images\image-20240220143215788.png)
+
+
+
+- 快速开发
+
+  ![image-20240220145531912](C:\Users\77507\AppData\Roaming\Typora\typora-user-images\image-20240220145531912.png)
+
+  ![image-20240220145624708](C:\Users\77507\AppData\Roaming\Typora\typora-user-images\image-20240220145624708.png)
+
+  
+
+![image-20240220145846144](C:\Users\77507\AppData\Roaming\Typora\typora-user-images\image-20240220145846144.png)
+
+
+
+
+
+![image-20240220145927798](C:\Users\77507\AppData\Roaming\Typora\typora-user-images\image-20240220145927798.png)
+
+
+
+
+
+![image-20240222004916295](C:\Users\77507\AppData\Roaming\Typora\typora-user-images\image-20240222004916295.png)
+
+![image-20240222004950624](C:\Users\77507\AppData\Roaming\Typora\typora-user-images\image-20240222004950624.png)
+
+![image-20240222005029965](C:\Users\77507\AppData\Roaming\Typora\typora-user-images\image-20240222005029965.png)
+

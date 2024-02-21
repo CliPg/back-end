@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0a133fdb-6ccd-4015-85eb-b5db8dc596e5" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/springmvc_05_response/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_06_rest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_07_rest_case/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_04_request_param/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_04_request_param/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_04_request_param/src/main/java/com/clipg/config/SpringMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_04_request_param/src/main/java/com/clipg/config/SpringMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_04_request_param/src/main/java/com/clipg/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_04_request_param/src/main/java/com/clipg/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_04_request_param/target/classes/com/clipg/config/SpringMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_04_request_param/target/classes/com/clipg/config/SpringMvcConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_04_request_param/target/classes/com/clipg/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_04_request_param/target/classes/com/clipg/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_04_request_param/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_04_request_param/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/Spring.md" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/Spring.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2cMBqCcFpCvONcMYx0hjECOF3Ot" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/cs学习/JAVA/SpringMVC/springmvc_07_rest_case",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/cs学习/JAVA/SpringMVC/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "spring.configuration.checksum": "004dd78c17fbb6c6fca5a2749763b582",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\cs学习\JAVA\SpringMVC\springmvc_07_rest_case\src" />
+      <recent name="D:\cs学习\JAVA\SpringMVC\springmvc_06_rest\src" />
+      <recent name="D:\cs学习\JAVA\SpringMVC\springmvc_05_response\src" />
+      <recent name="D:\cs学习\JAVA\SpringMVC\springmvc_04_request_param\src" />
+      <recent name="D:\cs学习\JAVA\SpringMVC\springmvc_02_bean_load\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.springmvc_07_rest_case [tomcat7:run]">
+    <configuration name="springmvc_01_quickstart [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/springmvc_01_quickstart" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="springmvc_07_rest_case [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/springmvc_07_rest_case" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Maven.springmvc_01_quickstart [tomcat7:run]" />
+      <item itemvalue="Maven.springmvc_07_rest_case [tomcat7:run]" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="0a133fdb-6ccd-4015-85eb-b5db8dc596e5" name="更改" comment="" />
+      <created>1707911758691</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707911758691</updated>
+      <workItem from="1707911759756" duration="6126000" />
+      <workItem from="1707964615696" duration="41002000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
