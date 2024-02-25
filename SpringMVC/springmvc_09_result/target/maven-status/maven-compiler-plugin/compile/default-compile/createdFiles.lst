@@ -1,0 +1,12 @@
+com\clipg\config\SpringConfig.class
+com\clipg\config\MybatisConfig.class
+com\clipg\dao\GoodsDao.class
+com\clipg\config\SpringMvcConfig.class
+com\clipg\domain\Goods.class
+com\clipg\service\GoodsService.class
+com\clipg\controller\GoodsController.class
+com\clipg\config\JdbcConfig.class
+com\clipg\controller\Result.class
+com\clipg\service\impl\GoodsServiceImpl.class
+com\clipg\config\ServletConfig.class
+com\clipg\controller\Code.class

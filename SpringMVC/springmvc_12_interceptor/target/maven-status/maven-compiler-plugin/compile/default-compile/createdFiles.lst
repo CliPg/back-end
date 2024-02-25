@@ -1,0 +1,7 @@
+com\clipg\controller\UserController.class
+com\clipg\domain\Address.class
+com\clipg\domain\User.class
+com\clipg\controller\intercepter\ProjectInterceptor.class
+com\clipg\config\SpringMvcConfig.class
+com\clipg\config\SpringMvcSupport.class
+com\clipg\config\ServletContainersInitConfig.class

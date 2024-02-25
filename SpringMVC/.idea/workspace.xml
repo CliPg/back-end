@@ -5,15 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a133fdb-6ccd-4015-85eb-b5db8dc596e5" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/springmvc_05_response/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc_06_rest/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc_07_rest_case/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc_04_request_param/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_04_request_param/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc_04_request_param/src/main/java/com/clipg/config/SpringMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_04_request_param/src/main/java/com/clipg/config/SpringMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc_04_request_param/src/main/java/com/clipg/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_04_request_param/src/main/java/com/clipg/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc_04_request_param/target/classes/com/clipg/config/SpringMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_04_request_param/target/classes/com/clipg/config/SpringMvcConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc_04_request_param/target/classes/com/clipg/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_04_request_param/target/classes/com/clipg/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc_04_request_param/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_04_request_param/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_08_ssm/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_08_ssm/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_08_ssm/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_09_result/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_10_exception/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_12_interceptor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_13_interceptor_line/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring/Spring.md" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/Spring.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +28,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,7 +59,8 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/cs学习/JAVA/SpringMVC/springmvc_07_rest_case",
+    "last_directory_selection": "D:/cs学习/JAVA/SpringMVC/springmvc_08_ssm/src/main/java/com/clipg",
+    "last_opened_file_path": "D:/cs学习/JAVA/SpringMVC/springmvc_13_interceptor_line",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -65,20 +71,60 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel",
-    "spring.configuration.checksum": "004dd78c17fbb6c6fca5a2749763b582",
+    "spring.configuration.checksum": "e7cf41aac31771d2fc7fb4a2d5157912",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\cs学习\JAVA\SpringMVC\springmvc_13_interceptor_line" />
+      <recent name="D:\cs学习\JAVA\SpringMVC\springmvc_12_interceptor" />
+      <recent name="D:\cs学习\JAVA\SpringMVC\springmvc_10_exception" />
+      <recent name="D:\cs学习\JAVA\SpringMVC\springmvc_09_result" />
       <recent name="D:\cs学习\JAVA\SpringMVC\springmvc_07_rest_case\src" />
-      <recent name="D:\cs学习\JAVA\SpringMVC\springmvc_06_rest\src" />
-      <recent name="D:\cs学习\JAVA\SpringMVC\springmvc_05_response\src" />
-      <recent name="D:\cs学习\JAVA\SpringMVC\springmvc_04_request_param\src" />
-      <recent name="D:\cs学习\JAVA\SpringMVC\springmvc_02_bean_load\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.clipg.controller.intercepter" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.springmvc_07_rest_case [tomcat7:run]">
+  <component name="RunManager" selected="Maven.springmvc_12_interceptor [tomcat7:run]">
+    <configuration name="GoodsServiceTest.testGetAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springmvc_08_ssm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.clipg.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.clipg.service" />
+      <option name="MAIN_CLASS_NAME" value="com.clipg.service.GoodsServiceTest" />
+      <option name="METHOD_NAME" value="testGetAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoodsServiceTest.testGetById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springmvc_08_ssm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.clipg.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.clipg.service" />
+      <option name="MAIN_CLASS_NAME" value="com.clipg.service.GoodsServiceTest" />
+      <option name="METHOD_NAME" value="testGetById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="springmvc_01_quickstart [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -108,7 +154,7 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="springmvc_07_rest_case [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+    <configuration name="springmvc_12_interceptor [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -131,16 +177,24 @@
               <list />
             </option>
             <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/springmvc_07_rest_case" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/springmvc_12_interceptor" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JUnit.GoodsServiceTest.testGetAll" />
+      <item itemvalue="JUnit.GoodsServiceTest.testGetById" />
       <item itemvalue="Maven.springmvc_01_quickstart [tomcat7:run]" />
-      <item itemvalue="Maven.springmvc_07_rest_case [tomcat7:run]" />
+      <item itemvalue="Maven.springmvc_12_interceptor [tomcat7:run]" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GoodsServiceTest.testGetById" />
+        <item itemvalue="JUnit.GoodsServiceTest.testGetAll" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -152,6 +206,8 @@
       <updated>1707911758691</updated>
       <workItem from="1707911759756" duration="6126000" />
       <workItem from="1707964615696" duration="41002000" />
+      <workItem from="1708574383773" duration="33814000" />
+      <workItem from="1708750069940" duration="6908000" />
     </task>
     <servers />
   </component>
@@ -166,6 +222,10 @@
           <line>15</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalStateException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
